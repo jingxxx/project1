@@ -1,0 +1,128 @@
+#banner {
+    width: 800px;
+    height: 100px;
+    background-color: coral;
+    clear: both;
+    position: fixed;
+    margin-top: 0
+}
+
+#banner li {
+    display: inline;
+    font-size: 70%;
+    /*    background-color: azure;*/
+    padding: 2px;
+    margin: 5px;
+}
+
+#banner li a:link,
+#banner li a:visited {
+    color: #333
+}
+
+#banner li a:hover {
+    color: white
+}
+
+
+
+#content {
+    width: 600px;
+    height: 1000px;
+    background-color: azure;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left
+}
+
+#nav {
+    width: 100px;
+    background-color: bisque;
+    margin-top: 100px;
+    margin-left: -110px;
+    position: fixed;
+}
+
+#nav li {
+    display: block;
+    /*    background-color: coral;*/
+    padding: 5px;
+    /*    margin-top:10px;  */
+    /*    box-shadow: 1px 0px 2px 1px gray*/
+}
+
+#nav li:hover{
+    background-color: aqua
+}
+
+#nav li:hover a{
+    color: whitesmoke
+}
+
+#nav ul {
+    padding-left: 0px
+}
+
+
+#title {
+    width: 400px;
+    background-color: bisque
+}
+
+#footer {
+    width: auto;
+    height: 50px;
+    background-color: beige;
+    clear: both;
+}
+
+#supporting {
+    width: 100px;
+    height: 150px;
+    background-color: aliceblue;
+    float: right;
+    margin-left: 810px;
+    margin-top: 100px;
+    position: fixed
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#wrapper {}
+
+.container {
+    padding: 10px;
+}
+
+.item {
+    padding-top: 100px;
+    margin-top: -100px
+}
+
+#banner ul {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#banner h1 {
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.adjust-left {
+    float: left;
+    
+}
+
+.adjust-right {
+    float: right;
+    margin-bottom: 0px;
+}
+
+.clear {
+    clear: both
+}
+
